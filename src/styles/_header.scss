@@ -1,0 +1,44 @@
+@import "variables";
+.headerWrap {
+  background: #fff;
+  padding: 16px 0;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.headerContentWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appTitleContainer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  gap: 16px;
+  p {
+    color: $--blue;
+    line-height: 120%;
+  }
+}
+
+.appControlBtnsContainer {
+  display: flex;
+  gap: 16px;
+  button {
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  &__addContact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: $--red;
+  }
+  &__groups {
+    background-color: $--blue;
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/styles/app.scss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts book</title>
+  </head>
+  <body>
+    <header class="headerWrap">
+      <div class="container">
+        <div class="headerContentWrap">
+          <div class="appTitleContainer">
+            <img src="./src/assets/icons/contact-book.svg" alt="contact book" />
+            <p>Книга контактов</p>
+          </div>
+          <div class="appControlBtnsContainer">
+            <button
+              class="appControlBtnsContainer__addContact"
+              id="addContactBtn"
+            >
+              Добавить контакт
+              <img src="./src/assets/icons/Plus.svg" alt="plus" />
+            </button>
+            <button class="appControlBtnsContainer__groups" id="groupsBtn">
+              Группы
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
