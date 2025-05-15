@@ -8,28 +8,34 @@
     <title>Contacts book</title>
   </head>
   <body>
-    <header class="headerWrap">
-      <div class="container">
-        <div class="headerContentWrap">
-          <div class="appTitleContainer">
-            <img src="./src/assets/icons/contact-book.svg" alt="contact book" />
-            <p>Книга контактов</p>
-          </div>
-          <div class="appControlBtnsContainer">
-            <button
-              class="appControlBtnsContainer__addContact"
-              id="addContactBtn"
-            >
-              Добавить контакт
-              <img src="./src/assets/icons/Plus.svg" alt="plus" />
-            </button>
-            <button class="appControlBtnsContainer__groups" id="groupsBtn">
-              Группы
-            </button>
+    <div id="app">
+      <header class="headerWrap">
+        <div class="container">
+          <div class="headerContentWrap">
+            <div class="appTitleContainer">
+              <img
+                src="./src/assets/icons/contact-book.svg"
+                alt="contact book"
+              />
+              <p>Книга контактов</p>
+            </div>
+            <div class="appControlBtnsContainer">
+              <button
+                class="appControlBtnsContainer__addContact"
+                id="addContactBtn"
+              >
+                Добавить контакт
+                <img src="./src/assets/icons/Plus.svg" alt="plus" />
+              </button>
+              <button class="appControlBtnsContainer__groups" id="groupsBtn">
+                Группы
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <p id="emptyContactsText">Список контактов пуст</p>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

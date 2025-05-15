@@ -1,4 +1,4 @@
-@import "variables";
+@use "./variables" as vars;
 .headerWrap {
   background: #fff;
   padding: 16px 0;
@@ -17,7 +17,7 @@
   font-weight: 700;
   gap: 16px;
   p {
-    color: $--blue;
+    color: vars.$blue;
     line-height: 120%;
   }
 }
@@ -36,9 +36,9 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    background-color: $--red;
+    background-color: vars.$red;
   }
   &__groups {
-    background-color: $--blue;
+    background-color: vars.$blue;
   }
 }
